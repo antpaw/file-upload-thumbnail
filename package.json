@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
+    "codecov.io": "^0.1.6",
     "istanbul": "0.4.4",
     "jshint": "2.9.2",
     "json-loader": "0.5.4",

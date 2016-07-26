@@ -1,5 +1,5 @@
 # file-upload-thumbnail
-[![npm version](https://badge.fury.io/js/file-upload-thumbnail.svg)](https://www.npmjs.com/package/file-upload-thumbnail) [![Build Status](https://travis-ci.org/Tickaroo/file-upload-thumbnail.svg?branch=master)](https://travis-ci.org/Tickaroo/file-upload-thumbnail)
+[![npm version](https://badge.fury.io/js/file-upload-thumbnail.svg)](https://www.npmjs.com/package/file-upload-thumbnail) [![Build Status](https://travis-ci.org/antpaw/file-upload-thumbnail.svg?branch=master)](https://travis-ci.org/antpaw/file-upload-thumbnail)
 
 Create thumbnails from uploading files (image/video).
 
