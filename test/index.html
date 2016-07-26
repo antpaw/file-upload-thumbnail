@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="file" type="file" />
+    <img id="preview_image" />
+    <script src="../dist/file_upload_thumbnail.js"></script>
+    <script>
+    document.getElementById('file').addEventListener('change', function(e) {
+      e.preventDefault();
+      if (e.target.files) {
+        Array.prototype.slice.call(e.target.files).forEach(function(file){
+          new FileUploadThumbnail({
+            maxWidth: 500,
+            maxHeight: 40,
+            file: file,
+            onSuccess: function(src){
+              document.getElementById('preview_image').src = src || '';
+            }
+          }).createThumbnail();
+        });
+      }
+      e.target.value = null;
+      return false;
+    });
+
+
+    </script>
+  </body>
+</html>

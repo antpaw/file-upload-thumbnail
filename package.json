@@ -1,0 +1,37 @@
+{
+  "name": "file-upload-thumbnail",
+  "version": "0.1.0",
+  "description": "Create thumbnails from uploading files (image/video)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "lint": "jshint **.js **/*.js",
+    "coverage": "istanbul cover node_modules/.bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.4",
+    "jshint": "2.9.2",
+    "json-loader": "0.5.4",
+    "mocha": "2.5.3",
+    "mocha-phantomjs": "4.1.0",
+    "webpack": "1.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/antpaw/file-upload-thumbnail.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "preview",
+    "thumbnail"
+  ],
+  "author": "Anton Pawlik <anton.pawlik@gmail.com> (http://antpaw.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antpaw/file-upload-thumbnail/issues"
+  },
+  "homepage": "https://github.com/antpaw/file-upload-thumbnail#readme"
+}
