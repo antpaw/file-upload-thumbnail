@@ -1,8 +1,8 @@
 var Thumbnail = function (options) {
   this.options = {
     file: options.file,
-    maxWidth: options.maxWidth || 120,
-    maxHeight: options.maxHeight || 120,
+    maxWidth: options.maxWidth,
+    maxHeight: options.maxHeight,
     onError: options.onError && options.onError.bind(this),
     onSuccess: options.onSuccess && options.onSuccess.bind(this)
   };

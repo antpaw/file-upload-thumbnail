@@ -56,13 +56,13 @@ callback
 
 #### `maxWidth` (optional)
 type: `Int`  
-default: `120`  
-maximal width of the thumbnail, if `null`, the ratio of the image will be used to calculate it.
+default: `undefined`  
+maximal width of the thumbnail, if `undefined`, the ratio of the image will be used to calculate it.
 
 #### `maxHeight` (optional)
 type: `Int`  
-default: `120`  
-the same as `maxHeight`. If both are `null`, images will not be resized.
+default: `undefined`  
+the same as `maxHeight`. If both (`maxWidth` and `maxHeight`) are `undefined`, images will not be resized.
 
 
 ### instance.createThumbnail()
