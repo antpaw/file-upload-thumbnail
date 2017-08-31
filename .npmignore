@@ -17,3 +17,5 @@ test
 .editorconfig
 .jshintignore
 .jshintrc
+.travis.yml
+webpack.config.js
