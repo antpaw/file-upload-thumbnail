@@ -3,3 +3,4 @@ npm-debug.log
 /coverage
 /dist
 .DS_Store
+.nyc_output

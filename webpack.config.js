@@ -1,12 +1,11 @@
-var path = require('path');
-
 module.exports = [{
+  mode: 'production',
   entry: {
     file_upload_thumbnail: './index.js'
   },
   output: {
 		filename: '[name].js',
-    path: path.join('./dist/'),
+    path: __dirname + '/dist',
 		library: 'FileUploadThumbnail',
 		libraryTarget: 'var'
   }

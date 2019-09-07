@@ -7,18 +7,19 @@
     "test": "mocha",
     "build": "webpack",
     "lint": "jshint **.js **/*.js",
-    "coverage": "istanbul cover node_modules/.bin/_mocha"
+    "coverage": "nyc npm run test"
   },
   "devDependencies": {
-    "chai": "3.5.0",
+    "chai": "4.2.0",
     "codecov.io": "^0.1.6",
-    "istanbul": "0.4.4",
-    "jshint": "2.9.2",
-    "json-loader": "0.5.4",
-    "mocha": "2.5.3",
+    "nyc": "14.1.1",
+    "jshint": "2.10.2",
+    "json-loader": "0.5.7",
+    "mocha": "6.2.0",
     "mocha-phantomjs": "4.1.0",
-    "webpack": "1.13.1"
+    "webpack": "4.39.3"
   },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/antpaw/file-upload-thumbnail.git"
@@ -29,10 +30,10 @@
     "preview",
     "thumbnail"
   ],
+  "homepage": "https://github.com/antpaw/file-upload-thumbnail#readme",
   "author": "Anton Pawlik <anton.pawlik@gmail.com> (http://antpaw.org)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/antpaw/file-upload-thumbnail/issues"
-  },
-  "homepage": "https://github.com/antpaw/file-upload-thumbnail#readme"
+  }
 }
