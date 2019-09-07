@@ -1,6 +1,6 @@
 {
   "name": "file-upload-thumbnail",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create thumbnails from uploading files (image/video)",
   "main": "index.js",
   "scripts": {
