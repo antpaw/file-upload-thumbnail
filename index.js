@@ -67,6 +67,7 @@ Thumbnail.prototype.createThumbnailFromVideoFile = function() {
 Thumbnail.prototype.createVideoThumbnailFromUrl = function(videoUrl) {
   var canPlay, videoElem;
   videoElem = document.createElement('video');
+  videoElem.setAttribute('preload', 'auto')
   videoElem.style = 'display: none';
   document.body.appendChild(videoElem);
   canPlay = videoElem.canPlayType(this.options.file.type);
