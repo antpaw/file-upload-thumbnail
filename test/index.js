@@ -5,7 +5,7 @@ var getMockFile = function(type) {
   return {
     name: 'test file name',
     size: 123456,
-    type: type || 'text/html'
+    type: type || 'text/html'
   };
 };
 
