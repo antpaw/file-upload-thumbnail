@@ -14,7 +14,7 @@
     "codecov": "^3.6.1",
     "jshint": "2.10.3",
     "json-loader": "0.5.7",
-    "mocha": "6.2.3",
+    "mocha": "10.2.0",
     "mocha-phantomjs": "4.1.0",
     "nyc": "15.0.0",
     "webpack": "4.41.5",
