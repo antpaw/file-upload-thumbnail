@@ -4,7 +4,7 @@
   "description": "Create thumbnails from uploading files (image/video)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "nyc mocha",
     "build": "webpack",
     "lint": "jshint **.js **/*.js",
     "coverage": "nyc npm run test"
