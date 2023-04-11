@@ -19,3 +19,4 @@ test
 .jshintrc
 .travis.yml
 webpack.config.js
+.github
